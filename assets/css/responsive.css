@@ -1,0 +1,267 @@
+@media only screen and (max-width: 992px){
+    .navbar-brand img{
+        width: 80px !important;
+    }
+    .hero-left{
+        width: 350px;
+        position: absolute;
+        top: 35%;
+    }
+    .hero-heading{
+        font-size: 29px;
+        
+    }
+    .hero-text{
+        font-size: 14px;
+    }
+    .hero-right img{
+        width:350px;
+    }
+    .service-content{
+        margin-bottom: 20px;
+    }
+
+    .about-box{
+        padding: 100px 0px 0px 0px;
+    }
+    .abt-left img{
+        width: 250px;
+    }
+    .abt-left:before{
+        display: none;
+    }
+    .abt-right{
+        margin-top: 0px;
+    
+    }
+    .abt-heading{
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .abt-sub-heading{
+        margin: 10px 0px;
+    }
+    .abt-text{
+        font-size: 14px;
+    }
+
+    .recent-work-heading{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .recent-work-sub-heading{
+        margin-bottom:10px
+    }
+    .recent-work-sub-text{
+        font-size: 14px;
+    }
+
+    .contact-left p{
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .hero-left{
+        top: 40%;
+    }
+    .hero-right img{
+        width:280px;
+    }
+    .abt-left img{
+        width: 200px;
+    }
+    .abt-heading{
+        font-size: 30px;
+    }
+    .abt-sub-heading{
+        margin-bottom: 5px;
+    }
+    .abt-text{
+        font-size: 12px;
+    }
+
+    .recent-work-heading{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .recent-work-sub-heading{
+        font-size: 18px;
+        margin-bottom:5px;
+    }
+    .recent-work-sub-text{
+        font-size: 12px;
+    }
+
+    #subscribe a{
+        left: 35%;
+    }
+
+    .contact-left {
+        margin-bottom: 20px;
+    }
+    .contact-left p{
+        font-size: 18px;
+    }
+    .contact-right{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 576px){
+    .nav-item{
+        width:100px;
+    }
+    .hero-left{
+        top: 40%;
+    }
+    .about-box{
+       padding: 25px 0px;
+    }
+    .abt-left {
+        display: none;
+    }
+    .abt-heading{
+        font-size: 25px;
+    }
+    .abt-sub-heading{
+        font-size:18px;
+    }
+    .abt-text{
+        font-size: 12px;
+    }
+    .recent-work-heading{
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .recent-work-sub-heading{
+        font-size: 16px;
+        margin-bottom:5px;
+    }
+    .recent-work-sub-text{
+        font-size: 11px;
+    }
+    #subscribe a{
+        left: 30%;
+    }
+    .contact-right{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 499px){
+    .nav-item{
+        width:100px;
+    }
+    .hero-heading{
+        font-size: 25px;
+        
+    }
+    .hero-text{
+        font-size: 12px;
+    }
+    .hero-right img{
+        width:200px;
+    }
+
+    .about-box{
+        padding: 25px 0px;
+    }
+    .abt-left {
+        display: none;
+    }
+    .abt-heading{
+        font-size: 25px;
+    }
+    .abt-text{
+        font-size: 10px;
+    }
+
+    .work-text{
+        height: 180px;
+    }
+
+    .recent-work-sub-heading{
+        font-size: 14px;
+    }
+    .recent-work-sub-text{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .recent-work-heading{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .sub-heading{
+        font-size: 25px;
+    }
+    #subscribe a{
+        left: 28%;
+    }
+    .contact-right{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 419px){
+    .nav-item{
+        width:100px;
+    }
+    .hero-left{
+        top: 40%;
+    }
+    .hero-heading{
+        font-size: 22px;
+        
+    }
+    .hero-text{
+        font-size: 12px;
+    }
+    .hero-right img{
+        width:170px;
+    }
+    .about-box{
+        padding: 25px 0px;
+    }
+    .abt-left{
+        display: none;
+    }
+    .abt-right{
+        margin-bottom: 20px;
+    }
+    .abt-heading{
+        font-size: 25px;
+    }
+    .abt-sub-heading{
+        font-size:15px;
+    }
+    .abt-text{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .recent-work-sub-heading{
+        font-size: 12px;
+    }
+    .recent-work-sub-text{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .sub-heading{
+        font-size: 21px;
+    }
+    #subscribe a{
+        left: 28%;
+    }
+    .contact-right{
+        width: 100%;
+    }
+    footer h2{
+        font-size: 24px;
+    }
+    footer h4{
+        font-size: 20px;
+    }
+}
