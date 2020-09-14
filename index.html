@@ -20,7 +20,7 @@
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     <!--Starting Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/images/LogoMakr_83qwwZ.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,43 +52,42 @@
     <div id="hero">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                    <div class="hero-left">
+                <div class="col-sm-6 col-12">
+                    <div class="hero-left w-100">
                         <h1 class="hero-heading animate__animated animate__fadeInLeft">we are trustable<br/>and relaible</h1>
                         <p class="hero-text animate__animated animate__fadeInLeft" style="animation-delay: 1s;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid laborum molestiae perferendis sit amet dolores fugit fuga eius, suscipit beatae maiores, consectetur accusamus enim quam.</p>
-                        <a href="#" class="btn btn-lg- btn-danger animate__animated animate__fadeInLeft" style="animation-delay: 1s;">Know more</a>
+                        <a href="#" class="btn btn-lg text-white animate__animated animate__fadeInLeft" style="animation-delay: 1s;">Know more</a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                    <div class="hero-right">
-                        <img src="assets/images/pngwing.com.png" class="animate__animated animate__fadeInRight" alt="">
+                <div class="col-sm-6 col-12">
+                    <div class="hero-right w-100">
+                        <img src="assets/images/pngwing.com.png" class="img-fluid animate__animated animate__fadeInRight" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <section>
-        <div class="welcome">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 m-auto">
-                        <div class="welcome-section" style="padding: 50px 0px 100px;">
-                            <h2 class="text-center welcome-heading text-uppercase">welcome</h2>
-                            <p class="text-center welcome-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, natus quis suscipit non id adipisci explicabo nobis mollitia quidem laudantium neque cupiditate sint? Veniam officia, sed animi quo laudantium esse necessitatibus nihil atque, temporibus omnis, error similique iste.</p>
-                        </div>
+    <div class="welcome">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="welcome-section title_heading">
+                        <h2 class="text-center welcome-heading text-uppercase">welcome</h2>
+                        <p class="text-center welcome-text">Lorem ipsum dolor sit ametconsectetur adipisicing elit. Illum, natus quis suscipit non idadipisci explicabo nobis mollitia quidem laudantium nequecupiditate sint? Veniam officia, sed animi quo laudantium essenecessitatibus nihil atque, temporibus omnis, error similique iste</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+
 
     <div id="services">
         <div class="content-box service-box">
             <div class="content-title">
                 <div class="row">
                     <div class="col-lg-6 m-auto">
-                        <h3 class="title-heading text-uppercase text-center">services</h3>
+                        <h3 class="title_heading text-uppercase text-center">services</h3>
                         <div class="title-underline m-auto"></div>
                     </div>
                 </div>
@@ -97,7 +96,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4">
-                            <div class="service-content">
+                            <div class="service-content mb-5">
                                 <i class="fa fa-user-plus fa-2x" aria-hidden="true"></i>
                                 <div class="service-body">
                                     <h4 class="service-heading">Web Design</h4>
@@ -106,7 +105,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="service-content">
+                            <div class="service-content mb-5">
                                 <i class="fa fa-user-plus fa-2x" aria-hidden="true"></i>
                                 <div class="service-body">
                                     <h4 class="service-heading">Web Design</h4>
@@ -115,7 +114,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="service-content">
+                            <div class="service-content mb-5">
                                 <i class="fa fa-user-plus fa-2x" aria-hidden="true"></i>
                                 <div class="service-body">
                                     <h4 class="service-heading">Web Design</h4>
@@ -135,12 +134,10 @@
         <div class="content-box about-box">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 col-md-5 col-sm-5">
-                        <div class="abt-left">
-                            <img src="assets/images/3(2).jpg" alt="">
-                        </div>
+                    <div class="col-md-5 abt-left d-flex justify-content-center">
+                        <img src="assets/images/3(2).jpg" class="img-fluid" alt="">
                     </div>
-                    <div class="col-lg-7 col-md-7 col-sm-7 col-12">
+                    <div class="col-md-7">
                         <div class="abt-right">
                             <h1 class="abt-heading text-uppercase">About <span>Me</span>
                             </h1>
@@ -154,6 +151,21 @@
         </div>
     </div>
 
+    <!--Skills Sections-->
+    <div id="skills" style="padding:5rem 0rem">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <h2 class="skills_heading text-uppercase mb-4">Some of our Skills</h2>
+                    <p class="lead" style="color:grey;line-height:3rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto tenetur et est sapiente exercitationem accusamus aspernatur explicabo fugiat voluptatum suscipit, voluptates reiciendis natus quis hic sit pariatur velit nobis accusantium veritatis. Quod quaerat ea impedit exercitationem vitae quae ratione assumenda consectetur temporibus. Impedit deserunt ea molestias, aliquam dolorem, veritatis maxime dolor ut expedita eos laudantium? Adipisci.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/skills.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Recent work section-->
     <div id="recent_work">
@@ -161,35 +173,35 @@
             <div class="content-title">
                 <div class="row">
                     <div class="col-lg-6 m-auto ">
-                        <h3 class="title-heading text-uppercase text-center">recent work</h3>
+                        <h3 class="title_heading text-uppercase text-center">recent work</h3>
                         <div class="title-underline m-auto"></div>
                     </div>
                 </div>
             </div>
             <div class="content-description">
-                <div class="container">
+                <div class="container-fluid px-0">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding-right: 0px;">
+                        <div class="col-sm-6 col-12 pr-0 first_work_content">
                             <div class="work-text">
                                 <h2 class="recent-work-heading">Project 1</h2>
                                 <h5 class="recent-work-sub-heading">Codding is good</h5>
                                 <p class="recent-work-sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ut odit obcaecati sapiente ratione dicta repudiandae debitis quas voluptatem pariatur impedit, corrupti praesentium necessitatibus odio? Doloremque, sequi sapiente delectus vitae ipsam dignissimos labore recusandae sint deleniti dicta laborum. Autem quae ipsum, voluptatibus harum inventore quas repudiandae dignissimos sit labore nemo.</p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding-left: 0px;">
+                        <div class="col-sm-6 col-12 pl-0">
                             <div class="work-img"></div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding-right: 0px;">
+                        <div class="col-sm-6 col-12 pr-0">
                             <div class="work-img"></div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding-left: 0px;">
+                        <div class="col-sm-6 col-12 second_work_content pl-0">
                             <div class="work-text">
                                 <h2 class="recent-work-heading">Project 1</h2>
                                 <h5 class="recent-work-sub-heading">Codding is good</h5>
                                 <p class="recent-work-sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ut odit obcaecati sapiente ratione dicta repudiandae debitis quas voluptatem pariatur impedit, corrupti praesentium necessitatibus odio? Doloremque, sequi sapiente delectus vitae ipsam dignissimos labore recusandae sint deleniti dicta laborum. Autem quae ipsum, voluptatibus harum inventore quas repudiandae dignissimos sit labore nemo.</p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding-right: 0px;">
+                        <div class="col-sm-6 col-12 third_work_content pr-0">
                             <div class="work-text">
                                 <h2 class="recent-work-heading">Project 1</h2>
                                 <h5 class="recent-work-sub-heading">Codding is good</h5>
@@ -224,9 +236,10 @@
     <div id="contact">
         <div class="content-description" style="padding: 50px 0px;">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <div class="row d-flex">
+                    <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
                         <div class="contact-left">
+                            <h2 class="text-uppercase mb-5">Address</h2>
                             <div class="address d-flex justify-content-start">
                                 <i class="fa fa-map-marker" aria-hidden="true"></i> <p>124c Souther Avenue<br/>North kolkata Kol: 700050</p>
                             </div>
@@ -238,30 +251,30 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="contact-right shadow-lg p-3 rounded" >
-                            <form action="" method="post" name="myForm" onsubmit="return validate()">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="contact-right shadow-lg p-3 rounded">
+                            <form action="" method="post" name="myForm" onsubmit="return validation()">
                                 <div class="form-group">
-                                    <label for="name">name</label>
+                                    <label for="name">Name:</label>
                                     <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
                                     <span id="name_msg"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label for="email">Email</label>
+                                    <label for="email">Email:</label>
                                     <input type="text" class="form-control" id="email" name="email" placeholder="Enter your Email">
                                     <span id="mail_msg"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label for="phone">Phone</label>
+                                    <label for="phone">Phone:</label>
                                     <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter your Phone">
                                     <span id="mob_msg"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label for="name">Message</label>
+                                    <label for="name">Message:</label>
                                     <textarea name="" id="" cols="30" name="msg" id="msg" rows="4" class="form-control"></textarea>
                                     <span id="message_msg"></span>
                                 </div>
-                                <input type="submit" value="submit" class="btn btn-danger w-100">
+                                <a type="submit" class="btn btn-danger w-100 text-white">Submit</a>
                             </form>
                         </div>
                     </div>
@@ -278,17 +291,23 @@
                     <h2>Babai <span>tech</span></h2>
                     <h4 class="text-capitalize" style="font-weight: 200; margin-bottom: 15px;">A Front end web developer</h4>
                     <div class="social-icon">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                     </div>
                     <div class="footer-bottom"><p>Copyright by babai &copy; All right reserve 2020 </p></div>
                 </div>
             </div>
         </div>
     </footer>
-
+    <a href="#" class="to_top"><i class="fa fa-arrow-circle-up fa-3x"></i>
+    </a>
+    <div class="social_slide">
+        <a href="#" class="fb social_dv"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Facebook</a>
+        <a href="#" class="twi social_dv"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Twitter</a>
+        <a href="#" class="google_plus social_dv"><i class="fa fa-google-plus" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Google Plus</a>
+    </div>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
